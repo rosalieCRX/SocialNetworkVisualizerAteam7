@@ -1,0 +1,42 @@
+  
+    //graphic nodes
+    public SocialNetwork socialNetwork;
+    public VBox signUpBox;
+    public VBox twoInputBox;
+    public VBox centerBox;
+    public VBox bottomBox;
+    public MenuBar menuBar;
+    
+    private void setUpSignUpBox() {
+      
+    }
+ private void setUpTwoInputBox() {
+      
+    }
+ private void setUpCenterBox() {
+   
+ }
+ private void setUpBottomBox() {
+   
+ }
+ private void setUpMenuBox() {
+   
+ }
+ private void drawGraph(String graph) {
+   centerBox.getChildren().addAll(new ImageView (new Image(graph)));
+ }
+ private void drawNode(String graph, String name, double x, double y) {
+   
+ }
+ private void drawEdge(String graph, String name, double x, double y) {
+   
+ }
+ private String getNameFromCoordinates(double x, double y) {
+  return null;
+   
+ }
+ private void setSelectedUser(String username) {
+   
+ }
+ 
+    
